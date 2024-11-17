@@ -29,7 +29,7 @@ Save and Document Results:
 Capture the waveform output and include the results in your report for verification.
 
 Verilog Code:
-
+```
 module swapnume();
 reg [8:0]a,b,c;
 reg [8:0]temp;
@@ -47,7 +47,7 @@ initial begin
 $monitor("a=%d and b=%d c=%d",a,b,c);
 end 
 endmodule
-
+```
 Output
 <img width="491" alt="image" src="https://github.com/user-attachments/assets/e580df17-6180-405d-8df5-95f0205745b1">
 
